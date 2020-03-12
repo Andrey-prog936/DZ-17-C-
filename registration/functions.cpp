@@ -77,16 +77,6 @@ void signIn()
 		}
 	}
 	/*
-	
-	*/
-	/////////////////////
-	/*
-	if (newUser.name==temp || newUser.email==temp && newUser.password==temp2)
-	{
-		cout << "Ow hello " << newUser.name << endl;
-	}
-	else
-	{
 		int a = 0;
 		cout << "Data entered incorrectly" << endl;
 		cout << "Want to try again?" << endl;
@@ -103,13 +93,11 @@ void signIn()
 			{
 				break;
 			}
-			default: {
+			default: 
+			{
 				cout << "Please select action (1 - 2)" << endl;
 			}
 		}
-
-
-	}
 	*/
 	fin.close();
 }
