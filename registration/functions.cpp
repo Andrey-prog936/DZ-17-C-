@@ -15,7 +15,7 @@ reginfo newUser;
 
 void reg()
 {
-	
+
 	cout << "Enter nickname: ";
 	cin.ignore();
 	getline(cin, newUser.name);
@@ -42,8 +42,8 @@ void reg()
 		fout << newUser.password << endl;
 	}
 	fout.close();
-		pause
-			cls
+	pause
+		cls
 }
 
 void signIn()
@@ -60,13 +60,13 @@ void signIn()
 	ifstream fin(fileName);
 	fin.open(fileName);
 	bool isOPen = fin.is_open();
-	if (isOPen == false) 
+	if (isOPen == false)
 	{
 		cout << "Failed to contact the service." << endl;
 	}
 	else
 	{
-		
+
 		if (newUser.name == temp || newUser.email == temp && newUser.password == temp2)
 		{
 			cout << "Ow hello " << newUser.name << endl;
@@ -78,6 +78,6 @@ void signIn()
 			cout << "Error" << endl;
 		}
 	}
-	
+
 	fin.close();
 }

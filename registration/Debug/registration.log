@@ -1,5 +1,2 @@
 ﻿  functions.cpp
-E:\HomeWork ALL\DZ 17 C++\registration\functions.cpp(68,31): error C2665: std::getline: ни одна из 2 перегрузок не может преобразовать все типы аргументов
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(82,32): message : может быть "std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(70,32): message : или       "std::basic_istream<char,std::char_traits<char>> &std::getline<char,std::char_traits<char>,std::allocator<char>>(std::basic_istream<char,std::char_traits<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)"
-E:\HomeWork ALL\DZ 17 C++\registration\functions.cpp(68,31): message : при попытке сопоставить список аргументов "(std::ifstream, const std::string)"
+  registration.vcxproj -> E:\HomeWork ALL\DZ 17 C++\Debug\registration.exe
