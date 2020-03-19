@@ -1,6 +1,7 @@
 #include "call.h"
 #include <iostream>
 #include <list>
+#include <string>
 #include <fstream>
 using namespace std;
 
@@ -59,12 +60,13 @@ void signIn()
 	ifstream fin(fileName);
 	fin.open(fileName);
 	bool isOPen = fin.is_open();
-	if (isOPen == false) {
+	if (isOPen == false) 
+	{
 		cout << "Failed to contact the service." << endl;
 	}
 	else
 	{
-
+		
 		if (newUser.name == temp || newUser.email == temp && newUser.password == temp2)
 		{
 			cout << "Ow hello " << newUser.name << endl;
@@ -73,31 +75,9 @@ void signIn()
 		}
 		else
 		{
-			
+			cout << "Error" << endl;
 		}
 	}
-	/*
-		int a = 0;
-		cout << "Data entered incorrectly" << endl;
-		cout << "Want to try again?" << endl;
-		cout << "1 - Yes" << endl;
-		cout << "2 - No" << endl;
-		cin >> a;
-		switch (a)
-		{
-			case 1:
-			{
-				signIn();
-			}break;
-			case 2:
-			{
-				break;
-			}
-			default: 
-			{
-				cout << "Please select action (1 - 2)" << endl;
-			}
-		}
-	*/
+	
 	fin.close();
 }
